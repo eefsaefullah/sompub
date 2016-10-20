@@ -169,10 +169,31 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Views\Shared\form_login.aspx.cs">
+      <DependentUpon>form_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\form_login.aspx.designer.cs">
+      <DependentUpon>form_login.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Login\CSS\base.css" />
+    <Content Include="Content\Login\CSS\layout.css" />
+    <Content Include="Content\Login\CSS\skeleton.css" />
+    <Content Include="Content\Login\IMG\bg.jpg" />
+    <Content Include="Content\Login\IMG\bg2.jpg" />
+    <Content Include="Content\Login\IMG\bg_form.jpg" />
+    <Content Include="Content\Login\IMG\close-hover.png" />
+    <Content Include="Content\Login\IMG\close.png" />
+    <Content Include="Content\Login\IMG\form-bg.png" />
+    <Content Include="Content\Login\IMG\login.png" />
+    <Content Include="Content\Login\IMG\login_active.png" />
+    <Content Include="Content\Login\IMG\login_hover.png" />
+    <Content Include="Content\Login\JS\app.js" />
+    <Content Include="Content\Login\JS\jquery-1.5.1.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -191,6 +212,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Shared\form_login.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -226,6 +248,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+    <Content Include="Views\Home\lihat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
